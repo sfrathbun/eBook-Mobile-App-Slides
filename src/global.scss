@@ -1,14 +1,3 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
-
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
 
@@ -24,3 +13,69 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-button{
+  width: 150px;
+  margin: auto;
+  margin-bottom: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ion-title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+// p{
+//   margin-left: 3%;
+//   margin-right: 3%;
+//   font-size: 24px;
+//   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+// }
+// .pageNumber{
+// text-align: center;
+// font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+// margin-bottom: 20px;
+// }
+h1{
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerImg{
+  width: 100%;
+  height: auto;
+}
+.forward {
+  position: absolute;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.back {
+  position: absolute;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+img{
+align-content: center;
+background-size: cover;
+overflow: cover;
+height: 100%;
+width: auto;
+}
+ion-button{
+width: 150px;
+margin: auto;
+margin-bottom: 5%;
+margin-top: 20px;
+}
